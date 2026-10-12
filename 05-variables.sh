@@ -10,4 +10,4 @@ echo "Script completed execution at: $END_TIME"
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
-echo "Total time taken: $TOTAL_TIME"
+echo "Total time taken: $TOTAL_TIME Seconds"
