@@ -6,3 +6,8 @@ var3=siva
 
 echo "$var1+$var2"
 echo "$(($var1+$var2+$var3))"
+
+declare -i COUNT=5 # I am declaring as integer
+COUNT=COUNT+1
+
+echo "Count is: $COUNT"
