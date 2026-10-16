@@ -10,7 +10,7 @@ fi
 echo "proceeding...."
 dnf install nginx -y
 
-if [ [ $? < 0 ] ]; then
+if [ $? -ne 0 ]; then
     echo "Nginx installation is failed"
     exit 1
 else
